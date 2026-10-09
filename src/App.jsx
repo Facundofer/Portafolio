@@ -65,7 +65,7 @@ function App() {
 
       <section id="tecnologías" className="container tech-section"><SectionTitle icon={Code2} title="Tecnologías" subtitle="Herramientas y lenguajes que utilizo y estoy aprendiendo." /><div className="tech-list">{technologies.map((tech, index) => <span key={tech}><b>{['◈','🐍','♨','▤','▰','▱','JS','php'][index]}</b>{tech}</span>)}</div></section>
 
-      <section id="contacto" className="container footer-info"><div><SectionTitle icon={Mail} title="Contacto" /><p>Podés contactarme por cualquiera de estos medios.</p><div className="footer-social"><a href="https://github.com/Facundofer"><Github /> GitHub</a><a href="https://www.linkedin.com/in/facundo-fernandez-9a16ba212"><Linkedin /> LinkedIn</a><a href="mailto:facundofernandez@gmail.com"><Send /> Email</a></div></div></section>
+      <section id="contacto" className="container footer-info"><div><SectionTitle icon={Mail} title="Contacto" /><p>Podés contactarme por cualquiera de estos medios.</p><div className="footer-social"><a href="https://github.com/Facundofer"><Github /> GitHub</a><a href="https://www.linkedin.com/in/facundo-fernandez-9a16ba212"><Linkedin /> LinkedIn</a><a href="mailto:facundo.fernandezfn@gmail.com"><Send /> Email</a></div></div></section>
     </main>
     <footer>Gracias por visitar mi portfolio <i /> Facundo Fernandez <i /> © 2025</footer>
   </div>;
